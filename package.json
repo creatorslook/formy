@@ -1,0 +1,47 @@
+{
+  "name": "formy-react",
+  "version": "1.0.1",
+  "description": "Inline Form Validation for React",
+  "main": "index.js",
+  "files": [
+    "/**/*.{js, d.ts, css}",
+    "/public"
+  ],
+  "scripts": {
+    "test": "start",
+    "build": "webpack --mode production && tsc --declaration"
+  },
+  "keywords": [
+    "formy",
+    "react",
+    "form",
+    "forms",
+    "inline",
+    "form validation",
+    "validation",
+    "primitives",
+    "react-dom",
+    "hooks"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creatorslook/formy.git"
+  },
+  "author": "Emmanuel Alozie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creatorslook/formy/issues"
+  },
+  "homepage": "https://github.com/creatorslook/formy#readme",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/react": "^18.0.25",
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.3"
+  }
+}
